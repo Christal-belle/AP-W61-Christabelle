@@ -1,0 +1,2 @@
+Outputnya "meow"
+Karena objek yang dipanggil adalah class Cat. Cat adalah kelas extension dari Main,  dan di kelas Cat, sound sudah di override dengan meow. Hal ini merupakan bentuk dari polymorphism karena walaupun hanya memanggil 1 method tapi tiap class bisa menimpa method itu masing-masing. Jadi, walaupun dibuat class baru, contoh Dog, dan pada method sound dioverride dengan "guk", dan class Dog dipanggil method soundnya, maka outputnya yang keluar adalah "guk".
