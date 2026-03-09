@@ -1,0 +1,2 @@
+"Vehicle v1 = new Vehicle();" v1 adalah variabel referensi yang merujuk pada kelas Vehicle sehingga, dijalankan method "v1.move();", maka yang terprint adalah "Vehicle is moving". Sedangkan "Vehicle v2 = new Car();" merujuk pada kelas Car dan hasil print dari method move yang diwarisi dari kelas Vehicle adalah "Car is moving" karena move pada kelas Car sudah diOverride. 
+Kedua baris tersebut berbeda karena pada kelas Car itu methodnya diOverride. Sedangkan, method pada kelas Vehicle (kelas induknya)
